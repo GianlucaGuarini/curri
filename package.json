@@ -1,0 +1,39 @@
+{
+  "name": "curri",
+  "version": "0.0.0",
+  "description": "Minimal curry implementation",
+  "main": "curri.js",
+  "jsnext:main": "index.next.js",
+  "module": "index.next.js",
+  "scripts": {
+    "prepare": "npm run build && npm test",
+    "lint": "eslint index.next.js test.js rollup.config.js",
+    "build": "rollup -c",
+    "doc": "documentation readme index.next.js -s API",
+    "test": "npm run lint && mocha test.js"
+  },
+  "files": [
+    "index.js",
+    "index.next.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GianlucaGuarini/curri.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015"
+  ],
+  "author": "Gianluca Guarini <gianluca.guarini@gmail.com> (http://gianlucaguarini.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GianlucaGuarini/curri/issues"
+  },
+  "homepage": "https://github.com/GianlucaGuarini/curri#readme",
+  "devDependencies": {
+    "@gianlucaguarini/eslint-config": "^1.0.0",
+    "eslint": "^4.13.1",
+    "mocha": "^4.0.1",
+    "rollup": "^0.52.1"
+  }
+}
