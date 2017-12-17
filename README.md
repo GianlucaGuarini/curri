@@ -1,5 +1,9 @@
 # curri
 
+<img alt="curri.js" src="https://cdn.rawgit.com/GianlucaGuarini/curri/master/curri.gif" width="50%"/>
+
+> `curri` in some Italian :it: dialects means run
+
 [![Build Status][travis-image]][travis-url]
 
 [![NPM version][npm-version-image]][npm-url]
