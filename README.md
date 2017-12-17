@@ -2,7 +2,7 @@
 
 <img alt="curri.js" src="https://cdn.rawgit.com/GianlucaGuarini/curri/master/curri.gif" width="50%"/>
 
-> `curri` in some Italian :it: dialects means run
+> `curri` in some Italian :it: dialects means `run`
 
 [![Build Status][travis-image]][travis-url]
 
