@@ -1,8 +1,8 @@
 export default {
   input: 'index.next.js',
-  name: 'curri',
   output: [
     {
+      name: 'curri',
       file: 'curri.js',
       format: 'umd'
     }
