@@ -6,9 +6,9 @@
   "main": "index.js",
   "module": "index.js",
   "exports": {
-    "types": "index.d.ts",
-    "import": "index.js",
-    "require": "index.cjs"
+    "types": "./index.d.ts",
+    "import": "./index.js",
+    "require": "./index.cjs"
   },
   "scripts": {
     "prepublishOnly": "npm run build && npm test",
