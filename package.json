@@ -1,20 +1,23 @@
 {
   "name": "curri",
   "version": "1.0.1",
+  "type": "module",
   "description": "Minimal curry implementation",
-  "main": "curri.js",
-  "jsnext:main": "index.next.js",
-  "module": "index.next.js",
+  "main": "index.js",
+  "module": "index.js",
+  "exports": {
+    "types": "index.d.ts",
+    "import": "index.js",
+    "require": "index.cjs"
+  },
   "scripts": {
-    "prepare": "npm run build && npm test",
+    "prepublishOnly": "npm run build && npm test",
     "lint": "eslint index.next.js test.js rollup.config.js",
     "build": "rollup -c",
+    "test-types": "tsc --noEmit",
     "doc": "documentation readme index.next.js -s API",
-    "test": "npm run lint && mocha test.js"
+    "test": "npm run lint && npm run test-types && mocha test.js"
   },
-  "files": [
-    "index.next.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GianlucaGuarini/curri.git"
@@ -32,8 +35,9 @@
   "homepage": "https://github.com/GianlucaGuarini/curri#readme",
   "devDependencies": {
     "@gianlucaguarini/eslint-config": "^2.0.0",
-    "eslint": "^5.16.0",
-    "mocha": "^6.0.2",
-    "rollup": "^1.7.4"
+    "eslint": "^8.38.0",
+    "mocha": "^10.2.0",
+    "rollup": "^3.20.2",
+    "typescript": "^5.0.4"
   }
 }

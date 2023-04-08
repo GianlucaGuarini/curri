@@ -3,8 +3,13 @@ export default {
   output: [
     {
       name: 'curri',
-      file: 'curri.js',
+      file: 'index.cjs',
       format: 'umd'
+    },
+    {
+      name: 'curri',
+      file: 'index.js',
+      format: 'esm'
     }
   ]
 }

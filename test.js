@@ -1,5 +1,5 @@
-const assert = require('assert')
-const curry = require('./')
+import assert from 'node:assert'
+import curry from './index.js'
 
 const add = (a, b) => a + b
 const multiply = (a, b) => a * b

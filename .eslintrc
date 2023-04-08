@@ -3,4 +3,4 @@ env:
   mocha: true
 
 rules:
-  fp/no-rest-parameters: false
+  fp/no-rest-parameters: 0
