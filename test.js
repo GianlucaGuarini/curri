@@ -1,5 +1,5 @@
 import assert from 'node:assert'
-import curry from './index.js'
+import curry from './index.next.js'
 
 const add = (a, b) => a + b
 const multiply = (a, b) => a * b
