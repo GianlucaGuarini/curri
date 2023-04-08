@@ -3,7 +3,7 @@
   "version": "2.0.1",
   "type": "module",
   "description": "Minimal curry implementation",
-  "main": "index.js",
+  "main": "index.cjs",
   "module": "index.js",
   "exports": {
     "types": "./index.d.ts",
