@@ -1,6 +1,6 @@
 {
   "name": "curri",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "type": "module",
   "description": "Minimal curry implementation",
   "main": "index.js",
