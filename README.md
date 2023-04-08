@@ -4,8 +4,7 @@
 
 > `curri` in some Italian :it: dialects means `run`
 
-[![Build Status][travis-image]][travis-url]
-
+[![Build Status][ci-image]][ci-url]
 [![NPM version][npm-version-image]][npm-url]
 [![NPM downloads][npm-downloads-image]][npm-url]
 [![MIT License][license-image]][license-url]
@@ -21,9 +20,8 @@ const add3 = curry(add)(3)
 console.log(add3(5)) // 8
 ```
 
-[travis-image]: https://img.shields.io/travis/GianlucaGuarini/curri.svg?style=flat-square
-
-[travis-url]: https://travis-ci.org/GianlucaGuarini/curri
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gianlucaguarini/curri/test.yml?style=flat-square
+[ci-url]: https://github.com/gianlucaguarini/curri/actions
 
 [license-image]: http://img.shields.io/badge/license-MIT-000000.svg?style=flat-square
 
