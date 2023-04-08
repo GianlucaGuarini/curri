@@ -3,7 +3,7 @@
   "version": "2.0.2",
   "type": "module",
   "description": "Minimal curry implementation",
-  "main": "index.cjs",
+  "main": "index.js",
   "module": "index.js",
   "exports": {
     "types": "./index.d.ts",
@@ -18,6 +18,11 @@
     "doc": "documentation readme index.next.js -s API",
     "test": "npm run lint && npm run test-types && mocha test.js"
   },
+  "files": [
+    "index.d.ts",
+    "index.cjs",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GianlucaGuarini/curri.git"
